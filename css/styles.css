@@ -8,19 +8,31 @@ body {
   padding:50px 240px 0px 240px;
 }
 
+.shop-intro-container a{
+    text-decoration: none;
+}
+
+
 .shop-intro {
     padding: 100 125 0 240;
   max-width: 50%;
   align-items: bottom;
+}
+.shop-intro>h1{
+    max-width:65%;
+    font-size:40px;
+}
+.shop-intro>p{
+    margin-bottom:50px;
 }
 .shop-intro-flower {
     padding-left:100px;
   height: 400px;
   width: 335px;
 }
-.btn-primary{
-    padding:10px;
-    margin-top:0;
+.btn-primary-shop-now, .btn-primary-sign-up{
+    padding:10px 20px;
+    
     border:0;
     border-radius: 5px;
     color:#fff;
@@ -42,15 +54,18 @@ body {
 }
 
 .featured-flower-div{
-    margin-left:1000px;
+    
     display:flex;
     gap:24px;
     margin-left:50px;
+    margin-bottom:200px;
 }
 
-caption{
+figcaption{
     text-decoration: underline;
     text-align:center;
+    margin-top:20px;
+    
 }
 
 img{
@@ -60,6 +75,62 @@ img{
 }
 .flower-1{
     background-color: #A7216224;
-    border-top-radius:50%;
+    margin-left:200px;
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width:340px;
+    height:405px;
+    /* margin:auto; */
+}
+.flower-container-1>figcaption{
+    margin-left:150px;
+}
+.flower-2{
+    background-color: #0597A024;
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width:340px;
+    height:405px;
+    margin:auto;
+}
+.flower-3{
+    background-color: #A7216224;
+    border-top-right-radius:50%;
+    border-top-left-radius:50%;
+    width:340px;
+    height:405px;
+    margin:auto;
 }
 
+.hot-deal-container{
+    background-color: #E5547340;
+    display:flex;
+    gap:20px;
+    text-align: center;
+    align-items: center;
+}
+.social-media{
+    display:block;
+    text-align: center;
+    align-items:center;
+}
+.social-media>p{
+    margin-left:450px;
+    max-width:40%;
+}
+.hot-deal-text{
+    max-width:40%;
+    /* display: hidden; */
+    margin:200px 300px 200px 200px;
+}
+.hot-deal-text>h3{
+    font-size:40px;
+}
+.hot-deal-text>p{
+    margin-bottom:70px;
+}
+
+.random-flower{
+    display:flex;
+    
+}
