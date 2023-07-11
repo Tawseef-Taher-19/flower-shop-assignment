@@ -131,6 +131,7 @@ figcaption {
   text-decoration: underline;
   text-align: center;
   margin-top: 20px;
+  color:#272727;
 }
 
 img {
@@ -166,13 +167,7 @@ img {
   margin: auto;
 }
 
-.hot-deal-container {
-  background-color: #e5547340;
-  display: flex;
-  gap: 20px;
-  text-align: center;
-  align-items: center;
-}
+/* social-media */
 .social-media {
   /* margin-top: 80px; */
   padding-top: 70px;
@@ -184,6 +179,16 @@ img {
   margin-left: 450px;
   max-width: 40%;
 }
+
+/* hot-deal */
+.hot-deal-container {
+  background-color: #e5547340;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
 .hot-deal-text {
   max-width: 40%;
   /* display: hidden; */
@@ -203,6 +208,8 @@ img {
   gap: 20px;
 }
 
+
+/* latest-deal */
 .latest-deal {
   padding-top: 50px;
   height: 250px;
@@ -212,7 +219,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.latest-deal input {
+.latest-deal input[type="text"] {
   width: 600px;
   border-radius: 5px;
   border: 0;
@@ -231,8 +238,8 @@ img {
 }
 
 .btn-primary-latest-deal-subscribe {
-  padding: 20px 80px;
-  padding: 10px 20px;
+  
+  padding: 30px 20px;
 
   border: 0;
   border-radius: 5px;
@@ -244,6 +251,9 @@ img {
   margin-left: 5px;
 }
 
+
+
+/* flower-of-the-month */
 .flower-of-the-month {
   text-align: center;
   padding: 50px;
@@ -262,8 +272,9 @@ img {
   margin-bottom: 10px;
 }
 
+/* footer */
 footer {
-  height: 500px;
+  height: 300px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -283,4 +294,5 @@ footer > p {
 }
 
 .copyright {
+    margin-bottom:0px;
 }
