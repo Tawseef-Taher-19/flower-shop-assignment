@@ -1,0 +1,65 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.shop-intro-container {
+    background-color: #E5547316;
+  display: flex;
+  gap: 50px;
+  padding:50px 240px 0px 240px;
+}
+
+.shop-intro {
+    padding: 100 125 0 240;
+  max-width: 50%;
+  align-items: bottom;
+}
+.shop-intro-flower {
+    padding-left:100px;
+  height: 400px;
+  width: 335px;
+}
+.btn-primary{
+    padding:10px;
+    margin-top:0;
+    border:0;
+    border-radius: 5px;
+    color:#fff;
+    background-color:#E55473;
+    margin-top:70px;
+    text-align: center;
+
+}
+
+.featured-flower{
+    font-weight: 600;
+    margin-bottom:20px;
+}
+
+.featured-flower-container{
+    margin:80px auto;
+    text-align: center;
+    max-width:600px;
+}
+
+.featured-flower-div{
+    margin-left:1000px;
+    display:flex;
+    gap:24px;
+    margin-left:50px;
+}
+
+caption{
+    text-decoration: underline;
+    text-align:center;
+}
+
+img{
+    display:block;
+    height:300px;
+    
+}
+.flower-1{
+    background-color: #A7216224;
+    border-top-radius:50%;
+}
+
