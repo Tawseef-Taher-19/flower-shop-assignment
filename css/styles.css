@@ -38,6 +38,29 @@ nav ul li a:hover {
   background-color: #e5547390;
 }
 
+.click-to-join{
+    background-color: #e5547390;
+    border-radius: 5%;
+    margin-top:10px;
+    padding:5px;
+    text-decoration: none;
+}
+.click-to-join:hover{
+    transition: 0.4;
+    color: #e5547390;
+    background: black;
+    /* animation-direction: reverse; */
+}
+.fa-solid{
+    margin:20px;
+    color:white
+}
+
+.fa-solid:hover{
+    padding:5px;
+    color:#e5547390;
+}
+
 nav ul li a {
   text-decoration: none;
   color: #e55473;
@@ -219,6 +242,24 @@ img {
   text-align: center;
   margin-bottom: 40px;
   margin-left: 5px;
+}
+
+.flower-of-the-month {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.flower-of-the-month h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.flower-of-the-month p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
 }
 
 footer {
