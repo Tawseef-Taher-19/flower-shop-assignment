@@ -4,6 +4,8 @@ body {
 
 .nav-class {
   display: flex;
+  position:sticky;
+  top:0px;
 }
 .nav-list-one{
     /* margin-left:47%; */
@@ -70,7 +72,8 @@ nav ul li a {
 
 
 .shop-intro-container {
-  background-color: #e5547316;
+  background-color: #ffedf0; 
+  /* #e5547316; */
   display: flex;
   gap: 50px;
   padding: 50px 240px 0px 240px;
